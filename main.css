@@ -77,8 +77,11 @@ h1{
     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
   }
   .logo{
+    /* opacity: 0; */
     height: 50px;
     width: 198px;
+    height: 60px;
+    width: 238px;
   }
   .nav{
     display: flex;
@@ -113,6 +116,7 @@ h1{
 .logoSmall{
     height: 56px;
     width: 47px;
+    
 }
   .vl{
     position: relative;
