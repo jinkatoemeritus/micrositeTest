@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UX Prototype</title>
+    <meta name="description" content="UX Prototype">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style/animation.css">
+
+    <script src="js/anime.min.js"></script>
+    <script defer type="text/javascript" src="js/animation.js"></script>
+</head>
+
+<body>
+
+
+<div class="wrap">
+    <video src="video/shortHigh.mp4" loop muted autoplay>
+    </video>
+    <div class="navWrap">
+        <img class="logo" src="img/logo.png" alt="">
+        <ul class="nav">
+            <li>Home</li>
+            <li>Curriculum</li>
+            <li>Faculty</li>
+            <li>Participant Details</li>
+            <li>Application Details</li>
+            <li>Webinars</li>
+        </ul>
+    </div>
+    <div class="vl"><div></div></div>
+    
+    <div class="headerWrap">
+        <img class="logoSmall" src="img/logoSmall.png" alt="">
+        <h1>Advanced Business Analytics Program</h1>
+        <p>Step Up to Data-Driven Leadership</p>
+    </div>
+    <div class="vl"><div></div></div>
+  </div>
+
+  <div class="feature">
+    <img src="img/feature1.jpg">
+    <div class="featureText featureTextLeft animateTarget">
+        <h1>Why Advanced Business Analytics?</h1>
+        <p>Technological innovation has created a surplus of data availability. Terms like artificial intelligence, machine learning, and big data are becoming the norm in corporate decision making. As data keeps increasing, it also creates an asset from which you can extract crucial information. The question is no longer “do we need analytics?” Instead, the focus is on harnessing tools and capabilities to derive applicable insights.</p>
+    </div>
+  </div>
+
+  <div class="feature featureRight">
+    <img class="featureImgLeft" src="img/feature2.jpg">
+    <div class="featureText featureTextRight animateTarget">
+        <h1>Customized design for your success</h1>
+        <p>The learning journey of 12 to 15 months has been structured with the needs of busy executives in mind. You will learn through online and interactive sessions, including fireside chats and guest lectures from leading researchers and global industry leaders. The flexible nature of ABAP allows you to customize your learning journey for maximum career and business impact.</p>
+    </div>
+  </div>
+
+  <div class="fullFeature">
+    <div class="textArea animateTarget">
+        <h1>Why Wharton Executive Education’s Advanced Business Analytics Program?</h1>
+        <p>The Advanced Business Analytics Program (ABAP) is designed for executives who want to gain fluency in AI and analytics and how they shape decision outcomes — which includes both opportunities as well as challenges.</p>
+        <p>The core modules are designed to ensure you get adequate grounding in the nuances of business analytics before you head into in-depth electives. It tackles two important aspects of business analytics. The first part is descriptive analytics where you dig into the data to find its quality, relevance, and importance — this is where you get your hands dirty with data. Once that is established, you move on to the next aspect of prescriptive analytics, which is the art and science of making decisions from observational data — the fun part.</p>
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+    anime({
+        targets: '.featureTextLeft',
+        translateX: [-50, 0],
+        // backgroundColor: '#FFF',
+        opacity: [0, 1],
+        easing: 'easeOut',
+        duration: 300,
+        delay: 1000
+    });
+
+    anime({
+        targets: '.featureTextRight',
+        translateX: [-50, 0],
+        // translateY: [20, 0],
+        opacity: [0, 1],
+        easing: 'easeOut',
+        duration: 1000,
+        delay: 1000
+    });
+    anime({
+        targets: '.fullFeature .textArea',
+        translateY: [20, 0],
+        opacity: [0, 1],
+        easing: 'easeOutExpo',
+        duration: 3000,
+        delay: 1000
+    });
+
+    
+
+    
+    
+    
+
+</script>
+</body>
+</html>
