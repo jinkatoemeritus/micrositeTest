@@ -17,10 +17,29 @@ body {
   }
 
 h1{
-    font-size: 50px;
+    
+    font-size: 34px;
+    color: #222;
     font-family: 'Crimson Text', serif;
     font-weight: 600;
     line-height: 120%;
+  }
+  p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444;
+    line-height: 160%;
+  }
+  .cta{
+    background-color: #A90533;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    border-radius: 1px;
+    font-family: 'Roboto', sans-serif;
   }
 /* --------------------------- Header */
   .wrap {
@@ -44,7 +63,7 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 32, 95, 0.7);
   }
 /* ------------- Nav */
   .navWrap{
@@ -53,9 +72,9 @@ h1{
     align-items: center;
     color: #fff;
     position: relative;
-    padding: 10px 30px 30px 30px;
+    padding: 10px 30px 20px 30px;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
   }
   .logo{
     height: 50px;
@@ -83,13 +102,13 @@ h1{
     /* background-color:rgba(0, 0, 0, 0.5); */
   }
   .headerWrap h1{
+    font-size: 50px;
+    color: white;
     margin-bottom: 10px;
   }
   .headerWrap p{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     color: #D7BD5B;
+    height: 50px;
   }
 .logoSmall{
     height: 56px;
@@ -99,11 +118,11 @@ h1{
     position: relative;
     z-index: 3;
     min-width: 100%;
-    min-height: 200px;
+    min-height: 180px;
   }
   .vl div {
     position: absolute;
-    height: 200px;
+    height: 180px;
     width: 2px;
     background-color:rgba(255, 255, 255, 0.3);
     top: 0;
@@ -135,14 +154,7 @@ h1{
 }
 
 .featureText h1{
-    font-size: 34px;
-    color: #222;
-    margin-bottom: 10px;
-}
-.featureText p{
-    font-size: 14px;
-    color: #444;
-    line-height: 160%;
+  margin-bottom: 10px;
 }
 .featureImgLeft{
     padding-left: 350px;
@@ -159,7 +171,6 @@ h1{
     position: relative;
     z-index: 6;
     width: 100%;
-    background-color: red;
     padding: 150px 50px;
     background-image: url("img/featureBg.jpg");
     background-repeat: no-repeat;
@@ -174,12 +185,8 @@ h1{
     margin-right: 0;
 }
 .fullFeature .textArea h1{
-    font-size: 40px;
     margin-bottom: 20px;
 }
 .fullFeature .textArea p{
-    font-size: 14px;
-    color: #444;
-    line-height: 160%;
     margin-bottom: 20px;
 }
