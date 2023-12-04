@@ -65,7 +65,12 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    background-color:rgba(0, 32, 95, 0.7);
+    /* background-color:rgba(0, 32, 95, 0.7);
+     */
+     background: rgb(0,0,0);
+      background: radial-gradient(circle, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%);
+      
+      background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
   }
 /* ------------- Nav */
   .navWrap{
@@ -109,30 +114,46 @@ h1{
   .headerWrap h1{
     font-size: 50px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .headerWrap p{
     color: #D7BD5B;
-    height: 50px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .headerWrap .cta{
+    display: inline-block;
+    /* margin-top: 10px; */
+    padding: 18px 28px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 2px;
+    border: 1px solid white;
   }
 .logoSmall{
     height: 56px;
     width: 47px;
-    
+    height: 60px;
+    width: 238px;
+    height: 70px;
+    width: 277px;
+    opacity: 0;
 }
   .vl{
     position: relative;
     z-index: 3;
     min-width: 100%;
-    min-height: 180px;
+    min-height: 140px;
+    min-height: 280px;
   }
   .vl div {
     position: absolute;
-    height: 180px;
+    height: 100%;
     width: 2px;
     background-color:rgba(255, 255, 255, 0.3);
     top: 0;
     left: 50%;
+    display: none;
   }
 
 /* --------------------------- Features */
